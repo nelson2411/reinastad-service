@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -123,6 +125,7 @@ hr {
 	padding: 8px 2px;
 	border-radius: 0;
 	margin: 9px 20px 0 20px;
+	font-weight: bold;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
 	color: #FFDB58;
@@ -183,12 +186,17 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	outline: none;
 	outline-offset: none;
 }
+
+.navbar-nav > li > .dropdown-menu{
+	border-radius: 7px;
+}
+
 /* Header Section */
 .intro {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) top center no-repeat;
+	background: url(../img/norrtälje_reinastäd.jpg) top center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -196,7 +204,7 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 	-o-background-size: cover;
 }
 .intro .overlay {
-	background: rgba(0,0,0,0.2);
+	background: rgba(90, 89, 89, 0.2);
 }
 .intro .fa {
 	font-size: 94px;
@@ -213,10 +221,11 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 }
 .intro p {
 	color: #fff;
-	font-size: 19px;
+	font-size: 25px;
 	margin-top: 20px;
 	line-height: 28px;
 	margin-bottom: 40px;
+	text-shadow:-10px 10px 8px rgb(95, 95, 99);
 }
 header .intro-text {
 	padding-top: 275px;
