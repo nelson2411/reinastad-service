@@ -93,6 +93,12 @@ hr {
 	border: 0;
 }
 /* Navigation */
+li.iconss>a{
+	margin-left: 12px !important;
+	margin-right: 12px !important;
+	font-size: 17px !important;
+}
+
 #menu {
 	padding: 20px;
 	transition: all 0.8s;
@@ -570,7 +576,7 @@ color: #777;
 	font-size: 22px;
 	width: 40px;
 	height: 40px;
-	padding: 10px;
+	padding: 9px;
 	background: #777;
 	color: #222;
 	border-radius: 50%;
@@ -589,6 +595,13 @@ color: #777;
 #footer a:hover {
 	color: #ccc;
 }
+.footer-links li{
+	display: inline-block;
+	font-size: 16px;
+	vertical-align: middle;
+	margin-top: 20px;
+	padding: 0 12px;
+}
 
 @media (max-width: 768px) {
 #about .vcenter {
@@ -605,3 +618,37 @@ color: #777;
 	}
 	}
 	
+	@media (max-width: 990px) {
+		.footer-links li{
+			display: inline-block;
+			font-size: 16px;
+			vertical-align: middle;
+			margin: 10px 10px 30px 10px;
+			padding: 0 12px;
+		}
+		#map{
+			height:300px;
+			width:100%;
+			border-radius: 5px;
+			margin-top: 40px;
+		  }
+		}
+		@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #e04f4f;
+	background-color: whitesmoke ;
+}
+}
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+    background-color: honeydew;
+}
+}
+
+@media (max-width: 767px){
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #29ab87;
+    background-color: whitesmoke;
+}
+}
