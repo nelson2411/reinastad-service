@@ -113,7 +113,7 @@ li.iconss>a{
 	color: rgb(39, 37, 37);
 }
 #menu a.navbar-brand:hover{
-	color: #FFDB58;
+	color: #29AB87;
 }
 
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
@@ -134,16 +134,17 @@ li.iconss>a{
 	font-weight: bold;
 }
 #menu.navbar-default .navbar-nav > li > a:hover {
-	color: #FFDB58;
+	color: #29AB87;
 }
 .on {
-	background-color: #ffdb58 !important;
+	background-color: rgb(248, 248, 248) !important;
 	padding: 0 !important;
 	padding: 15px 0 !important;
-	border-bottom: 5px solid #186138 !important;
+	/* border-bottom: 5px solid #186138 !important; */
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #fff !important;
+	color: rgb(64, 115, 224) !important;
 	background-color: transparent;
 }
 .navbar-toggle {
@@ -167,13 +168,13 @@ li.iconss>a{
 	text-transform: uppercase;
 	color: #fff;
 	background-color: #29AB87;
-	border-bottom: 4px solid #1b6d3f;
+	/* border-bottom: 4px solid #1b6d3f; */
 	padding: 14px 20px;
 	letter-spacing: 1px;
 	margin: 0;
 	font-size: 17px;
 	font-weight: 400;
-	border-radius: 4px;
+	border-radius: 6px;
 	margin-top: 20px;
 	transition: all 0.3s;
 }
@@ -202,6 +203,16 @@ a:focus, .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:acti
 .dropdown-menu > li > a{
 	color: black;
 }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+	color: #ffc800;
+}
+
+.flyttnav{
+	background-color: rgb(248, 248, 248);
+    border-color: rgba(231, 231, 231, 0)
+}
+
 
 
 /* Header Section */
@@ -281,16 +292,18 @@ header .intro-text {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/headers_reinastäd/flyttstädning_header.png) center no-repeat;
+	background: url(../img/headers_reinastäd/flyttstädning_header2.png) center no-repeat;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	
+	height: 40%;
+	margin-top: 81px;
 }
 .intro-flyttstädning .overlay {
 	background: rgba(8, 8, 8, 0.2);
+	height: 100%;
 }
 
 .intro-flyttstädning-text{
@@ -309,12 +322,118 @@ header .intro-text {
 	color: whitesmoke;
 	text-shadow: 0 0 15px rgb(7, 7, 7), 0 0 10px rgb(0, 0, 0);
 }
+.flytts{
+	margin-top: 40px;
+	text-align: center;
+}
+
+.flyttsp{
+	margin-top: 10px;
+	text-align: center;
+	margin-bottom: 5px;
+	font-size: 16px;
+}
+
+.intro-hemstädning {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/headers_reinastäd/3.png) center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 40%;
+	margin-top: 81px;
+}
+.intro-hemstädning .overlay {
+	background: rgba(8, 8, 8, 0.2);
+	height: 100%;
+}
+
+.intro-flyttstädning-text{
+	padding-top: 95px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 0 0 15px rgb(7, 7, 7), 0 0 10px rgb(0, 0, 0);
+
+
+}
+
+.phem{
+	margin-top: 5px !important;
+	padding-top: 5px !important;
+}
+
+.intro-kontorsstädning {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/headers_reinastäd/kontorstädning_header.png) center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 40%;
+	margin-top: 81px;
+}
+.intro-kontorsstädning .overlay {
+	background: rgba(8, 8, 8, 0.507);
+	height: 100%;
+}
+.intro-kontorsstädning-text{
+	padding-top: 95px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 0 0 15px rgb(126, 126, 126), 0 0 10px rgb(131, 131, 131);
+
+}
+
+.list-group:hover{
+	box-shadow: 0px 2px 10px 5px rgba(0,0,0,0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.intro-storstädning {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/headers_reinastäd/storstädning.png) center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 40%;
+	margin-top: 81px;
+}
+.intro-storstädning .overlay {
+	background: rgba(8, 8, 8, 0.507);
+	height: 100%;
+}
+.intro-storstädning-text{
+	padding-top: 95px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 0 0 15px rgb(126, 126, 126), 0 0 10px rgb(131, 131, 131);
+
+}
 /* About Section */
 #about {
 	padding: 120px 0;
-	background: rgb(2,0,36);
-	background: linear-gradient(13deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 27%, rgba(0,212,255,1) 88%);
+	background: #CAC531;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #edd692, #f4dd9c, #daa621);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #f0db9c, #f4dd9c, #d6a62c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
+/* #about .overlay {
+	background: rgba(173, 50, 50, 0.2);
+} */
 #about h3 {
 	font-size: 22px;
 	margin: 0 0 20px 0;
@@ -335,7 +454,7 @@ header .intro-text {
 	border-radius: 50%;
 }
 #about img:hover{
-	box-shadow: 0 0 60px #ddd;
+	box-shadow: 0 0 60px rgb(231, 161, 80);
 
 }
 #about p {
@@ -357,8 +476,14 @@ header .intro-text {
 	border-radius: 20px 20px 20px 0;
 }
 #services .service-desc {
-	margin: 10px 10px 40px;
+	min-height: 220px;
 }
+
+#services .line1 {
+	min-height: 150px;
+	
+}
+
 #services h3 {
 	font-weight: 600;
 	padding: 5px 0;
@@ -366,6 +491,16 @@ header .intro-text {
 }
 #services .service-desc hr {
 	margin-left: 0;
+}
+
+#services .col-md-4{
+	margin-bottom: 20px;
+}
+
+.btnflyt{
+	padding: 10px 10px;
+	font-size: 12px;
+	margin-top: 7px;
 }
 /* Portfolio Section */
 #portfolio {
@@ -522,6 +657,7 @@ ol.type li a:hover {
 	color: #fff;
 	font-weight: 400;
 	margin: 0;
+	font-size: 28px;
 }
 /* Contact Section */
 #contact {
@@ -559,7 +695,7 @@ label {
 	background-color: #fff;
 	background-image: none;
 	border: 1px solid #ddd;
-	border-radius: 0;
+	border-radius: 4px;
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	-webkit-transition: none;
@@ -596,6 +732,29 @@ color: #777;
 	width:100%;
 	border-radius: 5px;
   }
+
+  .inputWithIcon {
+	position: relative;
+  }
+  
+  .inputWithIcon i {
+	position: absolute;
+	left: 0;
+	top: 3px;
+	padding: 9px 8px;
+	color: #aaa;
+	transition: 0.3s;
+  }
+
+  .inputWithIcon input[type="email"] {
+	padding-left: 35px !important;
+  }
+  .inputWithIcon input[type="text"] {
+	padding-left: 35px !important;
+  }
+  .inputWithIcon input[type="tel"] {
+	padding-left: 35px !important;
+  }
 /* Footer Section*/
 #footer {
 	background: #333;
@@ -615,7 +774,17 @@ color: #777;
 	display: inline-block;
 	margin: 0 20px;
 }
-#footer .social i.fa {
+#footer .social i.fab{
+	font-size: 22px;
+	width: 40px;
+	height: 40px;
+	padding: 9px;
+	background: #777;
+	color: #222;
+	border-radius: 50%;
+	transition: all 0.3s;
+}
+#footer .social i.fas{
 	font-size: 22px;
 	width: 40px;
 	height: 40px;
@@ -693,5 +862,13 @@ color: #777;
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
     color: #29ab87;
     background-color: whitesmoke;
+}
+}
+
+@media (max-width: 770px){
+
+#menu.navbar-default {
+    background-color: rgb(248 248 248);
+    border-color: rgb(231, 231, 231);
 }
 }

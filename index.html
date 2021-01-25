@@ -34,7 +34,7 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/nivo-lightbox.css">
 <link rel="stylesheet" type="text/css" href="css/nivo-lightbox/default.css">
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-
+<script src="https://kit.fontawesome.com/0f80bcffac.js" crossorigin="anonymous"></script>
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
@@ -62,20 +62,20 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
         <li><a href="#" class="page-scroll">Hem</a></li>
         <li><a href="#about" class="page-scroll">Om oss</a></li>
         <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="services">Tjänster
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tjänster
           <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li data-toggle="collapse" data-target=".nav-collapse"><a href="flyttstädning.html">Flyttstädning</a></li>
-            <li data-toggle="collapse" data-target=".nav-collapse"><a href="#">Storstädning</a></li>
-            <li data-toggle="collapse" data-target=".nav-collapse"><a href="#">Kontorsstädning</a></li>
-            <li data-toggle="collapse" data-target=".nav-collapse"><a href="#">Hemstädning</a></li>
+            <li data-toggle="collapse" data-target=".nav-collapse"><a href="storstädning.html">Storstädning</a></li>
+            <li data-toggle="collapse" data-target=".nav-collapse"><a href="kontorsstädning.html">Kontorsstädning</a></li>
+            <li data-toggle="collapse" data-target=".nav-collapse"><a href="hemstädning.html">Hemstädning</a></li>
           </ul>
         </li>
         <li><a href="#portfolio" class="page-scroll">Galleri</a></li>
         <!--<li><a href="#testimonials" class="page-scroll">Testimonials</a></li>-->
         <li><a href="#quote-call" class="page-scroll">Kontakta oss</a></li>
-        <li class="iconss"><a href="https://www.facebook.com/Reinast%C3%A4d-Service-104236268050050/?ref=page_internal" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-        <li class="iconss"><a href="#"><i class="fa fa-instagram"></i></a></li>
+        <li class="iconss"><a href="https://www.facebook.com/Reinast%C3%A4d-Service-104236268050050/?ref=page_internal" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+        <li class="iconss"><a href="#"><i class="fab fa-instagram-square"></i></a></li>
       </ul>
     </div>
     <!-- /.navbar-collapse --> 
@@ -100,7 +100,7 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
 </header>
 <div class="header-line-effect"> <span></span> <span></span> </div>
 <!-- About Section -->
-<div id="about">
+<div id="about" class="overlay">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-md-4 vcenter wow fadeInRight">
@@ -134,32 +134,38 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
     <div class="col-md-10 col-md-offset-1 section-title text-center">
       <h2 class="wow fadeInLeft">Våra Tjänster</h2>
       <hr>
-      <p class="wow fadeInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+      <p class="wow fadeInRight">I Reinastäd vi erbjuder olika tjänster genom städning och trädgård. Vi hjälper våra kunder för att hålla rent inomhus och utomhus.</p>
     </div>
     <div class="row">
       <div class="col-md-4 wow fadeInUp">
         <div class="service-media"> <img src="img/tjänster/hemstädning.png" alt="hemstädning"> </div>
-        <div class="service-desc">
+        <div class="service-desc line1">
           <h3>Hemstädning</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Vårt mål är att ge dig en professionell service för att hålla ditt hem alltid rent.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
+
       </div>
       <div class="col-md-4 wow fadeInUp" data-wow-delay="200ms">
         <div class="service-media"> <img src="img/tjänster/fönsterputsning.png" alt="fönsterputsning"> </div>
-        <div class="service-desc">
-          <h3>Fönsterstädning</h3>
+        <div class="service-desc line1">
+          <h3>Fönsterputsning</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Det finns inget bättre än rena fönster så tydligheten är bättre.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
+
       </div>
       <div class="col-md-4 wow fadeInUp" data-wow-delay="400ms">
         <div class="service-media"> <img src="img/tjänster/trädgård.png" alt=" "> </div>
-        <div class="service-desc">
+        <div class="service-desc line1">
           <h3>Trädgård</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Vi har erfarenhet och engagemang för att hjälpa dig att hålla din trädgård fräsch och ren.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
+
       </div>
     </div>
     <!-- Second line of services - four sections-->
@@ -169,32 +175,40 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
         <div class="service-desc">
           <h3>Storstädning</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Genom den här tjänsten kan vi få ditt hem att kännas som nytt. 
+            Vi kommer till platser som normalt inte rengörs och som samlar damm och smuts.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
+
       </div> 
       <div class="col-md-3 wow fadeInUp" data-wow-delay="600ms">
-        <div class="service-media"> <img src="img/tjänster/flyttstädning.png" alt=" "> </div>
+        <div class="service-media"> <img src="img/tjänster/flyttstädning_2.png" alt=" "> </div>
         <div class="service-desc">
           <h3>flyttstädning</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Flyttar ut?. Vi hjälper dig att lämna ditt hus rent efter en flytt.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
       </div>
       <div class="col-md-3 wow fadeInUp" data-wow-delay="800ms">
         <div class="service-media"> <img src="img/tjänster/Kontorsstädning_reinastäd.jpg" alt=" "> </div>
         <div class="service-desc">
           <h3>Kontorsstädning</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Vi tar hand om att hålla din arbetsplats ren så att du kan arbeta i en trevligare arbetsmiljö.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
+
       </div> 
       <div class="col-md-3 wow fadeInUp" data-wow-delay="1000ms">
         <div class="service-media"> <img src="img/tjänster/trappstädning.png" alt=" "> </div>
         <div class="service-desc">
           <h3>Trappstädning</h3>
           <hr>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.</p>
+          <p>Varje byggnad måste upprätthålla en ren miljö. Vi kan hjälpa dig med det.</p>
         </div>
+        <a href="flyttstädning.html" class="btn btn-custom btn-lg page-scroll wow fadeInUp btnflyt" data-wow-delay="1200ms">Mer Info</a>
+
       </div> 
     </div>
   </div>
@@ -206,7 +220,8 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
     <div class="section-title text-center center">
       <h2 class="wow fadeInLeft">Projektgalleri</h2>
       <hr>
-      <p class="wow fadeInRight">Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+      <p class="wow fadeInRight">Allt vårt arbete utförs professionellt.</br> Vi är 100% engagerade i våra kunder och vi erbjuder en garanti. 
+        Vi har också erfaren och utbildad personal.</p>
     </div>
     <div class="categories">
       <ul class="cat">
@@ -369,7 +384,7 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
  --><!-- Quote Section -->
 <div id="quote-call" class="text-center">
   <div class="overlay">
-    <h2 class="wow fadeInLeft">Få ett kostnadsfritt förslag. Ring Oss <strong>0737402520</strong></h2>
+    <h2 class="wow fadeInLeft">Vi erbjuder till våra kunder ett kostnadsfritt besök, så kan vi känna till våra kunder behov.</br> Ring Oss <strong>0737402520</strong></h2>
   </div>
 </div>
 <!-- Contact Section -->
@@ -387,23 +402,34 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
     <div class="col-md-10 col-md-offset-1 wow fadeInUp">
       <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
-          <div class="col-md-6">
-            <div class="form-group">
+          
+            <div class="form-group inputWithIcon">
               <input type="text" id="name" class="form-control" placeholder="Namm" required="required">
+              <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
               <p class="help-block text-danger"></p>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div class="form-group">
-              <input type="email" id="email" class="form-control" placeholder="e-post" required="required">
+            
+            <div class="form-group inputWithIcon">
+              <input type="tel" id="phone" class="form-control" placeholder="telefonnummer" required="required" 
+              pattern="[0-9]{10}">
+              <i class="fa fa-phone-square fa-lg fa-fw" aria-hidden="true"></i>
+
+              <p class="help-block text-danger" aria-hidden="true"></p>
+            </div>
+          
+            <div class="form-group inputWithIcon">
+              <input type="email" id="email" class="form-control" placeholder="e-post" required="required" 
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
               <p class="help-block text-danger"></p>
             </div>
-          </div>
-        </div>
-        <div class="form-group">
+          
+        
+        <div class="form-group inputWithIcon">
           <textarea name="message" id="message" class="form-control" rows="4" placeholder="Ditt meddelande" required></textarea>
           <p class="help-block text-danger"></p>
         </div>
+      </div>
         <div id="success"></div>
         <button type="submit" class="btn btn-custom btn-lg">Skicka Meddelande</button>
       </form>
@@ -453,9 +479,9 @@ Städning, rent, trädgård, ordning, kvalitet, garanti, bra pris, ansvarighet, 
     <div class="col-md-6 wow fadeInUp">
       <div class="social">
         <ul>
-          <li><a href="https://www.facebook.com/Reinast%C3%A4d-Service-104236268050050/?ref=page_internal" rel="noopener"><i class="fa fa-facebook"></i></a></li>
-          <li><a href="#"><i class="fa fa-instagram"></i>
-          <li><a href="mailto:reinastadservice@gmail.com"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="https://www.facebook.com/Reinast%C3%A4d-Service-104236268050050/?ref=page_internal" rel="noopener"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram-square"></i>
+          <li><a href="mailto:reinastadservice@gmail.com"><i class="fas fa-envelope"></i></a></li>
         </ul>
       </div>
     </div>
