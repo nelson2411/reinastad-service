@@ -298,11 +298,11 @@ header .intro-text {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	height: 40%;
+	height: 33%;
 	margin-top: 81px;
 }
 .intro-flyttstädning .overlay {
-	background: rgba(8, 8, 8, 0.2);
+	background: rgba(8, 8, 8, 0.301);
 	height: 100%;
 }
 
@@ -344,11 +344,11 @@ header .intro-text {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	height: 40%;
+	height: 33%;
 	margin-top: 81px;
 }
 .intro-hemstädning .overlay {
-	background: rgba(8, 8, 8, 0.2);
+	background: rgba(8, 8, 8, 0.507);
 	height: 100%;
 }
 
@@ -367,6 +367,8 @@ header .intro-text {
 	padding-top: 5px !important;
 }
 
+/* Kontrostädning header style */
+
 .intro-kontorsstädning {
 	display: table;
 	width: 100%;
@@ -377,11 +379,11 @@ header .intro-text {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	height: 40%;
+	height: 33%;
 	margin-top: 81px;
 }
 .intro-kontorsstädning .overlay {
-	background: rgba(8, 8, 8, 0.507);
+	background: rgba(8, 8, 8, 0.39);
 	height: 100%;
 }
 .intro-kontorsstädning-text{
@@ -398,6 +400,7 @@ header .intro-text {
   transition: box-shadow 0.3s ease-in-out;
 }
 
+/* Storsstädning header style */
 .intro-storstädning {
 	display: table;
 	width: 100%;
@@ -408,11 +411,11 @@ header .intro-text {
 	-moz-background-size: cover;
 	background-size: cover;
 	-o-background-size: cover;
-	height: 40%;
+	height: 33%;
 	margin-top: 81px;
 }
 .intro-storstädning .overlay {
-	background: rgba(8, 8, 8, 0.507);
+	background: rgba(8, 8, 8, 0.295);
 	height: 100%;
 }
 .intro-storstädning-text{
@@ -423,6 +426,36 @@ header .intro-text {
 	text-shadow: 0 0 15px rgb(126, 126, 126), 0 0 10px rgb(131, 131, 131);
 
 }
+
+/* Trädgård header style */
+
+.intro-trädgård {
+	display: table;
+	width: 100%;
+	padding: 0;
+	background: url(../img/headers_reinastäd/trädgård_header.png) center no-repeat;
+	background-color: #e5e5e5;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+	height: 33%;
+	margin-top: 81px;
+}
+.intro-trädgård .overlay {
+	background: rgba(8, 8, 8, 0.171);
+	height: 100%;
+}
+.intro-trädgård-text{
+	padding-top: 95px;
+	padding-bottom: 50px;
+	text-align: center;
+	color: whitesmoke;
+	text-shadow: 0 0 15px rgb(126, 126, 126), 0 0 10px rgb(131, 131, 131);
+
+}
+
+
 /* About Section */
 #about {
 	padding: 120px 0;
@@ -460,6 +493,7 @@ header .intro-text {
 #about p {
 	line-height: 24px;
 	margin: 30px 0;
+	color: #000000;
 }
 /* Services Section */
 #services {
@@ -827,6 +861,7 @@ color: #777;
 @media (max-width: 471px) {
 	ol.type li a{
 		padding:  5px 5px;
+		display: table-cell;
 	}
 	}
 	
