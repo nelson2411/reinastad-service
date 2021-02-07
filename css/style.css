@@ -455,6 +455,10 @@ header .intro-text {
 
 }
 
+.trädgård-info{
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
 
 /* About Section */
 #about {
@@ -640,6 +644,15 @@ ol.type li a:hover {
 }
 .hover-bg:hover .hover-text {
 	opacity: 1;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > .item > .item > a > img{
+	height: 220px !important;
+}
+
+img, .carousel-inner {
+	height: 500px;
+	
 }
 /* Testimonials Section */
 #testimonials {
