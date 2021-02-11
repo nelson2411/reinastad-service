@@ -470,7 +470,7 @@ Vi erbjuder: Hemstädning, flyttstädning, kontorstädning, fönsterplus, storst
     <div class="row">
       <div class="col-md-6">
     <div class="col-md-10 col-md-offset-1 wow fadeInUp">
-      <form name="sentMessage" id="contactForm" novalidate>
+      <form name="sentMessage" id="contactForm" action="mail/contact_me.php" method="POST" novalidate>
         <div class="row">
           
             <div class="form-group inputWithIcon">
@@ -480,16 +480,14 @@ Vi erbjuder: Hemstädning, flyttstädning, kontorstädning, fönsterplus, storst
             </div>
             
             <div class="form-group inputWithIcon">
-              <input type="tel" id="phone" class="form-control" placeholder="telefonnummer" required="required" 
-              pattern="[0-9]{10}">
+              <input type="tel" id="phone" class="form-control" placeholder="telefonnummer" required="required">
               <i class="fa fa-phone-square fa-lg fa-fw" aria-hidden="true"></i>
 
               <p class="help-block text-danger" aria-hidden="true"></p>
             </div>
           
             <div class="form-group inputWithIcon">
-              <input type="email" id="email" class="form-control" placeholder="e-post" required="required" 
-              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+              <input type="email" id="email" class="form-control" placeholder="e-post" required="required">
               <i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true"></i>
               <p class="help-block text-danger"></p>
             </div>
